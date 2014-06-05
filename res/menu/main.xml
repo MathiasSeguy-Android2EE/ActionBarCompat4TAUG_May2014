@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:android2ee4taug="http://schemas.android.com/apk/res-auto" >
+
+    
+    <item
+        android:id="@+id/action_search"
+        android:icon="@drawable/ic_action_search"
+        android:title="@string/action_settings"
+        android2ee4taug:showAsAction="always|collapseActionView"
+        android2ee4taug:actionLayout="@layout/search_actionview"/>
+    <item
+        android:id="@+id/action_settings"
+        android:icon="@drawable/ic_action_name"
+        android:title="@string/action_settings"
+        android2ee4taug:showAsAction="always"/>
+
+</menu>
