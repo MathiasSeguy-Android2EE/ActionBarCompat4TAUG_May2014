@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:android2ee="http://schemas.android.com/apk/res-auto" >
+    <item
+        android:id="@+id/action_one"
+        android:icon="@drawable/ic_action_one"
+        android:orderInCategory="0"
+        android2ee:showAsAction="always"
+        android:title="One"/>
+    <item
+        android:id="@+id/action_two"
+        android:icon="@drawable/ic_action_two"
+        android:orderInCategory="0"
+        android2ee:showAsAction="ifRoom"
+        android:title="Two"/>
+</menu>
